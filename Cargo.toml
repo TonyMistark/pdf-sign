@@ -1,0 +1,15 @@
+[package]
+name = "pdf-sign"
+version = "0.1.0"
+edition = "2021"
+description = "extract signed date from pdf file"
+license = "Apache-2.0"
+authors = ["tony_mistark@163.com"]
+repository = "https://github.com/TonyMistark/pdf-sign"
+homepage = "https://github.com/TonyMistark/pdf-sign"
+
+[dependencies]
+lopdf = "0.34.0"
+indexmap = "2.6.0"
+chrono = "0.4"
+
